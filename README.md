@@ -7,8 +7,8 @@
 ```python
 from words2num_ru import form_number
 print(form_number("тысяча пятьсот десять"))
-```
-```shell
+
+shell
 1510
 ```
 
