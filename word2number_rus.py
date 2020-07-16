@@ -90,10 +90,6 @@ def form_number(number_words):
             integer = str(numbers[0] + numbers[1] + numbers[2] + numbers[3])
             words_without_numbers.insert(i, integer)
             return " ".join(words_without_numbers)
-#         elif numbers[0]<100 and numbers[1]<10 and numbers[2]<100 and numbers[3]<10:
-#             integer = str(numbers[0]+numbers[1])+str(numbers[2])+str(numbers[3])
-#             words_without_numbers.insert(i, integer)
-#             return " ".join(words_without_numbers)
         elif numbers[0]<100 and numbers[1]<10 and numbers[2]<100 and numbers[3]<10:
             integer = str(numbers[0]+numbers[1])+str(numbers[2]+numbers[3])
             words_without_numbers.insert(i, integer)
